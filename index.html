@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="images/bg-pattern-card.svg"
+        alt="bg pattern card"
+        class="card__header-img"
+      />
+      <div class="card__profile-imag-con">
+        <img
+          src="images/image-victor.jpg"
+          alt="victor image"
+          class="card__profile-img"
+        />
+      </div>
+      <div class="card__profile-text">
+        <div class="card__txt-con">
+          <h3 class="dark-grayish-blue card__profile-name">Victor Crest</h3>
+          <p class="dark-gray profile-age">26</p>
+        </div>
+        <p class="dark-gray profile-location">London</p>
+      </div>
+      <div class="card__divider"></div>
+      <div class="card__stats">
+        <div class="card__stats-1 card__followers-container">
+          <span class="dark-grayish-blue stat-number card__followers-number"
+            >80K</span
+          >
+          <span class="dark-gray stat-text card__followers">Followers</span>
+        </div>
+        <div class="card__stats-1 card__likes-container">
+          <span class="dark-grayish-blue stat-number card__likes-number"
+            >803K</span
+          >
+          <span class="dark-gray stat-text card__likes">Likes</span>
+        </div>
+        <div class="card__stats-1 card__photos-container">
+          <span class="dark-grayish-blue stat-number card__photos-number"
+            >1.4K</span
+          >
+          <span class="dark-gray stat-text card__photos">Photos</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
